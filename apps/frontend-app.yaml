@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/j5hjun/frontend.git
     targetRevision: main
-    path: frontend/k8s
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: frontend
